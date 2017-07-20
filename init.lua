@@ -56,6 +56,8 @@ remapKey({'ctrl', 'shift'}, 'f', keyCode('right', {'shift'}))
 remapKey({'ctrl', 'shift'}, 'b', keyCode('left', {'shift'}))
 remapKey({'ctrl', 'shift'}, 'n', keyCode('down', {'shift'}))
 remapKey({'ctrl', 'shift'}, 'p', keyCode('up', {'shift'}))
+remapKey({'ctrl', 'shift'}, 'e', keyCode('right', {'shift', 'cmd'}))
+remapKey({'ctrl', 'shift'}, 'a', keyCode('left', {'shift', 'cmd'}))
 
 remapKey({'ctrl', 'cmd'}, 'f', keyCode('right', {'cmd'}))
 remapKey({'ctrl', 'cmd'}, 'b', keyCode('left', {'cmd'}))
